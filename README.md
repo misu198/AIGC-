@@ -1,4 +1,4 @@
-# Docsify Open Course Starter Kit
+# Docsify开放课程入门工具包（Docsify Open Course Starter Kit）
 
 [![Docsify](https://img.shields.io/npm/v/docsify?label=docsify)](https://docsify.js.org/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/hibbitts-design/docsify-open-course-starter-kit/blob/main/LICENSE)
@@ -6,193 +6,180 @@
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Docsify Discord Chat" />
 </a>
 
-> This is a starter kit to quickly create a Markdown-based open course site with the site generator [Docsify](https://docsify.js.org). Global navigation elements can be hidden for seamlessly embedding pages (i.e., into an LMS). Includes an optional "Edit this Page" link.
+> 这是一个快速创建基于 Markdown 的开放式课程网站的入门套件，使用网站生成器 [Docsify](https://docsify.js.org)。全局导航元素可以隐藏，以便将页面无缝嵌入到学习管理系统 (LMS) 中。还包括一个可选的 "编辑此页面" 链接。.
 
-📸 Docsify Open Course Screenshots
+
+🚀 GitHub 页面快速入门
 ---
-![ Docsify Open Course Starter Kit](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/smartmockups_kud8xtd3.png)
-_Figure 1. Docsify Open Course Starter Kit. Explore a demo at [hibbitts-design.github.io/demo-docsify-open-course-starter-kit/](https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/)_
+**前飞行检查清单**
 
-🚀 GitHub Pages Quickstart
----
-**Pre-flight Checklist**  
+1. GitHub 账户
 
-1. GitHub account
+**安装和部署**
 
-**Installation and Deployment**
+1. 在源仓库上点击 **使用此模板**（右上角的绿色按钮），然后选择 **创建一个新仓库**
+![Docsify 开放课程入门套件 - 安装页面 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-1.png)
 
-1. Tap **Use this template** on the source repository (upper-right green button) and then choose **Create a new repository**
-![ Docsify Open Course Starter Kit - Install Page 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-1.png)
+2. 为您的新仓库选择一个名称，用于存放复制的站点文件，然后点击 **从模板创建仓库**
+![Docsify 开放课程入门套件 - 安装页面 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-2.png)
 
-2. Choose the name for your new repository to contain the copied site files and then tap **Create repository from template**
-![ Docsify Open Course Starter Kit - Install Page 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-2.png)
+3. 进入您新创建的仓库的 **设置**，点击 **Pages** 标签（在左侧），选择 **main 分支**，然后选择 **docs 文件夹**，最后点击 **保存** 按钮（更多细节请参阅 [Docsify 文档](https://docsify.js.org/#/deploy?id=github-pages)）
+![Docsify 开放课程入门套件 - 安装页面 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-3.png)
 
-3. Go to **Settings** of your newly created repository, tap the **Pages** tab (on the left-hand side), choose **main branch**, then **docs folder** and finally tap the **Save** button (see more details in the [Docsify documentation](https://docsify.js.org/#/deploy?id=github-pages))
-![ Docsify Open Course Starter Kit - Install Page 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-3.png)
+4. 完成！（使用 **Pages** 标签上提供的 URL 查看您的新站点 - 您的站点最初可用需要最多 10 分钟）
+![Docsify 开放课程入门套件 - 安装页面 4](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-4.png)
 
-4. And you're done! (view your new site using the provided URL on the **Pages** tab - it can take up to 10 minutes for your site to be initially available)
-![ Docsify Open Course Starter Kit - Install Page 4](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-install-4.png)
-
-Do you use GitLab? You can also use Docsify with [GitLab Pages](https://docsify.js.org/#/deploy?id=gitlab-pages)!
-
-✏️ Editing Your Docsify Site Pages on GitHub
+您使用 GitLab 吗？您也可以使用 [GitLab Pages](https://docsify.js.org/#/deploy?id=gitlab-pages) 配合 Docsify！
 ---  
 
-1. Go to the Docsify Markdown (.md) page in the `docs` folder of your repository you want to edit
-![ Editing Your Docsify Site Pages 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-page-edit-1.png)
+1. 打开您要编辑的存储库中 `docs` 文件夹中的 Docsify Markdown (.md) 页面
+![编辑您的 Docsify 网站页面 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-page-edit-1.png)
 
-2. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
-![ Editing Your Docsify Site Pages 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-page-edit-2.png)
+2. 点击 **铅笔图标**（位于左上角的工具栏区域）开始编辑
+![编辑您的 Docsify 网站页面 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-page-edit-2.png)
 
-3. Scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
-![ Editing Your Docsify Site Pages 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-page-edit-3.png)
+3. 滚动到页面底部，点击 **提交更改** 按钮以保存您的更改
+![编辑您的 Docsify 网站页面 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-page-edit-3.png)
 
-[Learn more about creating pages in Docsify.](https://docsify.js.org/#/more-pages)
+[了解更多关于在 Docsify 中创建页面的信息。](https://docsify.js.org/#/more-pages)
 
-🔗 Activating the “Edit this Page” Link on Your Docsify Site
+🔗 激活您的 Docsify 网站上的 “编辑此页面” 链接
 ---   
 
-1. At the top-level of your GitHub Repository copy the URL
-![ Docsify Open Course Starter Kit - “Edit this Page” Link 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-1.png)
+💻 在本地编辑您的 Docsify 网站页面
 
-2. Tap on the **docs** folder
-![ Docsify Open Course Starter Kit - “Edit this Page” Link 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-2.png)
+1. 在您的 GitHub 存储库的顶层复制 URL
+![Docsify 开放课程入门套件 - “编辑此页面” 链接 1](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-1.png)
 
-2. Tap on the **index.html** file
-![ Docsify Open Course Starter Kit - “Edit this Page” Link 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-3.png)
+2. 点击 **docs** 文件夹
+![Docsify 开放课程入门套件 - “编辑此页面” 链接 2](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-2.png)
 
-3. Tap the **Pencil Icon** (top left-hand toolbar area) to start the editor
-![ Docsify Open Course Starter Kit - “Edit this Page” Link 4](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-4.png)
+3. 点击 **index.html** 文件
+![Docsify 开放课程入门套件 - “编辑此页面” 链接 3](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-3.png)
 
-4. Find the line `var gitLinkRepoURL = '';` and enter the URL of your own GitHub Repository between the two quotes (replace `github.com` with `github.dev` to use the GitHub.dev web-based editor currently in Beta) and then scroll down to the bottom of the page and tap the **Commit changes** button to save your changes
-![ Docsify Open Course Starter Kit - “Edit this Page” Link 5](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-5.png)
+4. 点击 **铅笔图标**（位于左上角的工具栏区域）开始编辑
+![Docsify 开放课程入门套件 - “编辑此页面” 链接 4](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-4.png)
 
-💻 Locally Editing Your Docsify Site Pages
+5. 找到行 `var gitLinkRepoURL = '';`，在两个引号之间输入您自己的 GitHub 存储库的 URL（将 `github.com` 替换为 `github.dev` 可以使用目前处于 Beta 阶段的 GitHub.dev 在线编辑器），然后滚动到页面底部并点击 **提交更改** 按钮以保存您的更改
+![Docsify 开放课程入门套件 - “编辑此页面” 链接 5](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-gitlink-5.png)
 ---  
 
-**Editing Your Docsify Site Pages on Your Desktop**
-1. Tap **Code** on your repository (upper-right green button)
-2. Choose **Open Desktop** and follow the prompts, installing [GitHub Desktop](https://desktop.github.com/) if not already present
-3. You will now be able to edit your Docsify site (in the `docs` folder) using the desktop editor of your choice (e.g. [Atom](https://atom.io/))
-4. Use GitHub Desktop to push any changes to your repository.  
+您可以在桌面上编辑您的 Docsify 网站页面：
 
-[Learn more about using GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project).
+1. 点击您存储库上的 **Code**（右上角的绿色按钮）。
+2. 选择 **Open Desktop** 并按照提示操作，如果尚未安装 [GitHub Desktop](https://desktop.github.com/)，请先安装。
+3. 现在您可以使用您选择的桌面编辑器（例如 [Atom](https://atom.io/)）编辑您的 Docsify 网站（在 `docs` 文件夹中）。
+4. 使用 GitHub Desktop 将任何更改推送到您的存储库。
 
-You can also clone (i.e download) a copy of your repository to your computer and [run Docsify locally](https://docsify.js.org/#/quickstart) to preview your site. See the below video for details.
+[了解更多关于使用 GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project)。
 
-🧩 Embedding your Docsify Page Content into Other Systems
----  
+您也可以克隆（即下载）您存储库的副本到您的计算机上，并 [本地运行 Docsify](https://docsify.js.org/#/quickstart) 预览您的网站。请参考下面的视频了解详情。
 
-![ Docsify Open Course Page Embedded into the Canvas LMS](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-canvas.png)
-_Figure 2. Docsify Open Course Page Embedded into the Canvas LMS. Explore an example Canvas LMS course using Docsify Open Course pages for content at [https://canvas.sfu.ca/courses/44038/](https://canvas.sfu.ca/courses/44038)_
+🧩 将您的 Docsify 页面内容嵌入其他系统
 
-The optional `embedded` (all lowercase) URL parameter hides a site’s sidebar for seamlessly embedding Docsify page content within another platform such as Canvas LMS, Moodle, Microsoft Teams or being displayed in an existing or new Browser tab. The parameter `standalone` is supported as an alias for `embedded`.
+![将 Docsify 开放课程页面嵌入到 Canvas LMS](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/docsify-oc-canvas.png)
+_图 2. 将 Docsify 开放课程页面嵌入到 Canvas LMS。探索一个使用 Docsify 开放课程页面作为内容的示例 Canvas LMS 课程，网址为 [https://canvas.sfu.ca/courses/44038/](https://canvas.sfu.ca/courses/44038)_
 
-To only display Docsify page content, add the following to a Docsify page URL:
+可选的 `embedded`（全小写）URL 参数可以隐藏网站的侧边栏，实现将 Docsify 页面内容无缝嵌入到其他平台中，例如 Canvas LMS、Moodle、Microsoft Teams，或者在现有或新的浏览器标签中显示。参数 `standalone` 可以作为 `embedded` 的别名使用。
+
+要仅显示 Docsify 页面内容，请在 Docsify 页面 URL 中添加以下内容：
 
 `?embedded=true`
 
-Example standard Docsify page:  
+示例标准的 Docsify 页面：  
 https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources  
 
-Example Docsify page displaying only page content (i.e., no sidebar is shown):  
+示例显示仅页面内容的 Docsify 页面（即不显示侧边栏）：  
 https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
 
-To optionally show a page Table of Contents (based on included Headers), use the following:
+要可选显示页面目录（基于包含的标题），请使用以下内容：
 
 `?embedded=true&toc=true`
 
-Example Docsify page displaying only page content:  
+示例显示仅页面内容的 Docsify 页面：  
 https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
 
-Example Docsify page displaying only page content with a page Table of Contents included:  
+示例显示仅页面内容且包含页面目录的 Docsify 页面：  
 https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&toc=true  
 
-To optionally override the hiding of the navbar when displaying only page content, use the following:
+要可选覆盖显示仅页面内容时隐藏导航栏的设置，请使用以下内容：
 
 `?embedded=true&navbar=true`
 
-Example Docsify page displaying only page content:  
-https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
+示例显示仅页面内容的 Docsify 页面：  
+[https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true](https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true)  
 
-Example Docsify page displaying only page content with the navbar still displayed:  
-https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&navbar=true  
+示例显示仅页面内容且仍显示导航栏的 Docsify 页面：  
+[https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&navbar=true](https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&navbar=true)  
 
-To optionally hide the 'Edit this Page' link, use the following:
+要可选隐藏 "编辑此页面" 链接，请使用以下内容：
 
 `?embedded=true&hidegitlink=true`
 
-Example Docsify page displaying only page content:  
-https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
+示例显示仅页面内容的 Docsify 页面：  
+[https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true](https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true)  
 
-Example Docsify page displaying only page content with the 'Edit this Page' link hidden:  
-https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&hidegitlink=true  
+示例显示仅页面内容且隐藏 "编辑此页面" 链接的 Docsify 页面：  
+[https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&hidegitlink=true](https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&hidegitlink=true)  
 
-To optionally show the footer ('_footer.md' file), use the following:
+要可选显示页脚（'_footer.md' 文件），请使用以下内容：
 
 `?embedded=true&footer=true`
 
-Example Docsify page without footer:  
-https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true  
+示例不显示页脚的 Docsify 页面：  
+[https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true](https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true)  
 
-Example Docsify page with footer shown:  
-https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&footer=true  
+示例显示页脚的 Docsify 页面：  
+[https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&footer=true](https://hibbitts-design.github.io/demo-docsify-open-course-starter-kit/#/resources?embedded=true&footer=true)  
 
-🖼 Presenting your Docsify Page Content as Standalone Webpages
+🖼 将您的 Docsify 页面内容呈现为独立的网页
+
+除了在将 Docsify 页面内容嵌入其他系统时使用 URL 参数外，还可以永久将所有页面显示为独立页面，并始终显示页面目录。
+
+**显示所有页面为独立页面**
+1. 打开 `index.html` 文件进行编辑。
+2. 找到行 `var standalone = false;`，将其更改为 `var standalone = true;`。
+3. 保存 `index.html` 文件并重新加载站点。
+
+**显示页面目录**
+1. 打开 `index.html` 文件进行编辑。
+2. 找到行 `var ToC = false;`，将其更改为 `var showToC = true;`。
+3. 保存 `index.html` 文件并重新加载站点。
+
+请注意，页面必须具有一系列标题 (#, ##, ###) 才能正确显示目录。
+
+❛❜ 设置您的 Docsify 网站名称
 ---  
 
-In addition to using URL parameters when embedding Docsify page content into other systems, it is possible to permanently display all pages as standalone, and to also always display a page Table of Contents.
+🛠 使用 LMS 托管 Docsify 开放课程网站
 
-**To Display all Pages as Standalone**
-1. Open the `index.html` file for editing.
-2. Locate the line `var standalone = false;` and change it to `var standalone = true;`.
-3. Save the `index.html` file and reload site.
+由于 Docsify 开放课程入门套件不需要 web 服务器，实际上它可以托管在许多支持文件库的 LMS 中，如 Canvas 和 Moodle。
 
-**To Display Page Table of Contents**
-1. Open the `index.html` file for editing.
-2. Locate the line `var ToC = false;` and change it to `var showToC = true;`.
-3. Save the `index.html` file and reload site.
+例如，这是一个 [在 Canvas 课程中托管的 Docsify 开放课程网站](https://canvas.sfu.ca/courses/44038/files/15884796/download)。在同一系统中托管的单个 Docsify 开放课程网站页面也可以嵌入。
 
-Please note a page must have a series of Headings (#, ##, ###) for the Table of Contents to be displayed correctly.
+**在您的 LMS 上托管 Docsify 开放课程网站**
+1. 点击您存储库页面上的 **下载** 按钮。
+2. 将文件上传到您的 LMS 文件存储区，并解压上传的文件。
+3. 根据您的 LMS，确定加载 Docsify `Docs` 文件夹中的 `index.html` 文件所需的外部 URL。在 Canvas 中，示例 URL 可能类似于 `https://canvas.sfu.ca/courses/44038/files/15884796/download`。
 
-❛❜ Setting the Name of your Docsify Site 
----  
-
-1. Open the `index.html` file for editing.
-2. Locate the line `<title>Docsify Open Course Starter Kit</title>` and change the text between the title tags to be displayed as the site name on the Browser tab
-3. Locate the line `name: 'Docsify Open Course Starter Kit',` and change the text between the quotes to be displayed as the site name at the top of the Docsify Sidebar
-4. Save the `index.html` file and reload site.
-
-🛠 Using an LMS to Host a Docsify Open Course Site
----
-
-As Docsify Open Course Starter Kit does not require a web server, it can actually be hosted on many LMSs that support file libraries such as Canvas and Moodle.
-
-For example, here is a [Docsify Open Course Site hosted within a Canvas course](https://canvas.sfu.ca/courses/44038/files/15884796/download). Single Docsify Open Course site pages can also be embedded while hosted on the same system.
-
-**Hosting a Docsify Open Course Site on your LMS**
-1. Tap **Download** on your repository page
-2. Upload to your LMS file storage area, and unzip the upload file
-3. Based on your LMS, determine the external URL required to load the `index.html` file within the Docsify `Docs` folder. In Canvas, an example URL would look similar to `https://canvas.sfu.ca/courses/44038/files/15884796/download`.
-
-| :warning: | Once hosted within your LMS, changes made to the source GitHub repository are no longer automatically reflected on your hosted Docsify site. Any GitHub repository updates must be manually uploaded to the LMS file library area. |
+| :warning: | 一旦在您的 LMS 中托管，对源 GitHub 存储库进行的更改不会自动反映在您托管的 Docsify 网站上。任何 GitHub 存储库的更新都必须手动上传到 LMS 文件库区域。 |
 |---|:--|
 
-📚 Docsify and Markdown Resources
+📚 Docsify 和 Markdown 资源
 ---
 **Docsify**  
-[Docsify Documentation](https://docsify.js.org/#/?id=docsifyg)  
-[Docsify Basics by MichaelCurrin](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
+[Docsify 文档](https://docsify.js.org/#/?id=docsifyg)  
+[MichaelCurrin 的 Docsify 基础教程](https://michaelcurrin.github.io/docsify-js-tutorial/#/?id=docsify-basics)  
 
-**Docsify Themable**  
-[Docsify Themeable Documentation](https://jhildenbiddle.github.io/docsify-themeable/#/introduction)  
+**Docsify 主题**  
+[Docsify Themeable 文档](https://jhildenbiddle.github.io/docsify-themeable/#/introduction)  
 [Docsify Themeable GitHub](https://github.com/jhildenbiddle/docsify-themeable)  
 
 **Markdown**  
-[Markdown Here Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)  
-[Markdown Guide](https://www.markdownguide.org/)  
+[Markdown Here 备忘表](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)  
+[Markdown 指南](https://www.markdownguide.org/)  
 
-🧰 Useful Markdown CSS Classes
+🧰 有用的 Markdown CSS 类
 ---
 
 `accordion`
@@ -201,16 +188,16 @@ For example, here is a [Docsify Open Course Site hosted within a Canvas course](
 <div class="accordion">
 
 <details>
-  <summary>Topic One</summary>
+  <summary>主题一</summary>
   
-  Topic one details here.
+  主题一的详细内容在这里。
   
 </details>
 
 <details>
-  <summary>Topic Two</summary>
+  <summary>主题二</summary>
   
-  Topic two details here.
+  主题二的详细内容在这里。
   
 </details>
 
@@ -412,12 +399,12 @@ Automatically added to all iFrames with the source domains 'youtube.com' or 'doc
 <div class="video-container-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ"></iframe></div>
 ```
 
-🎨 Visual Customization
+🎨 视觉定制
 ---
 
-A Docsify Open Course Starter Kit site can be visually customized using CSS within the `custom.css` file located in the folder `docs/assets/css`. Using this file new Markdown CSS classes can be defined.
+可以使用位于 `docs/assets/css` 文件夹中的 `custom.css` 文件在 Docsify 开放课程入门套件网站中进行视觉定制。在这个文件中可以定义新的 Markdown CSS 类。
 
-CSS:  
+CSS：
 ```css
 .markdown-section .mybutton, .markdown-section .mybutton:hover {
   cursor: pointer;
@@ -436,22 +423,21 @@ CSS:
 }
 ```
 
-Markdown:  
+Markdown：
 ```markdown
 [Required Reading Quiz due Jun 4th](https://canvas.sfu.ca/courses/44038/quizzes/166553 ':class=mybutton')
 ```
 
-[Docsify Themeable CSS settings](https://jhildenbiddle.github.io/docsify-themeable/#/customization?id=base) can also be configured, as seen in the examples provided in the default `custom.css` file.
+还可以配置 [Docsify Themeable 的 CSS 设置](https://jhildenbiddle.github.io/docsify-themeable/#/customization?id=base)，如默认的 `custom.css` 文件中所示的示例。
 
-CSS:  
+CSS：
 ```css
 :root {
     --link-color: #0F6CBF!important;
 }
-*/
 ```
 
-It is also possible for dual CSS styling to be configured, with CSS applied to when viewing the site (with overriding custom CSS included in a `STYLE` tag in the `_sidebar.md` file) and then other CSS settings within the `custom.css` file applied to when viewing standalone pages (i.e. `?embedded=true`)
+还可以配置双重 CSS 样式，其中 CSS 应用于查看网站时（包含在 `_sidebar.md` 文件中的覆盖自定义 CSS 中）以及在查看独立页面（即 `?embedded=true`）时应用于 `custom.css` 文件中的其他 CSS 设置。
 
 CSS in Sidebar file (`_sidebar.md`):  
 ```css
@@ -464,21 +450,20 @@ CSS in Sidebar file (`_sidebar.md`):
 </style>
 ```
 
-🌐 Using MAMP to View Docsify Sites Locally
----
+🌐 使用 MAMP 在本地查看 Docsify 站点
 
-An alternative to installing Docsify locally (as described following this section) is to use MAMP to view your Docsify sites locally on your own computer.
+另一种在本地查看 Docsify 站点的方法（如下所述）是使用 MAMP 在您自己的计算机上本地查看 Docsify 站点。
 
-1. Download [MAMP](https://www.mamp.info/)
-2. Move your local Docsify site to the **htdocs** folder of MAMP
-3. Turn MAMP on, tap **WebStart** and then tap **My Website**
-4. Tap on the folder containing your local Docsify site and then tap on the **docs** folder
+1. 下载 [MAMP](https://www.mamp.info/)
+2. 将您的本地 Docsify 站点移动到 MAMP 的 **htdocs** 文件夹中
+3. 启动 MAMP，点击 **WebStart**，然后点击 **My Website**
+4. 点击包含您本地 Docsify 站点的文件夹，然后点击 **docs** 文件夹
 
-📼 Video Walkthrough of Local Docsify Install/Config
+📼 本地 Docsify 安装/配置的视频演示
 ---
 [![Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran](https://raw.githubusercontent.com/paulhibbitts/github-repo-images/master/youtube.png)](https://www.youtube.com/watch?v=TV88lp7egMw)  
-_Video 1. Generating Documentation Sites with GitHub and Docsify - Alysson Alvaran_
+_视频 1. 使用 GitHub 和 Docsify 生成文档站点 - Alysson Alvaran_
 
-🙇‍Credits and Special Thanks
+🙇‍ 感谢和特别鸣谢
 ---
-[Docsify Themeable](https://github.com/jhildenbiddle/docsify-themeable)   
+[Docsify Themeable](https://github.com/jhildenbiddle/docsify-themeable)
