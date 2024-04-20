@@ -1,10 +1,10 @@
 - [🧭 Midjourney 学习导航](home.md)
 - [😎 基础篇](midjourney/mj-tutorial-basics/README.md)
-  - [如何使用 Midjourney？](midjourney/mj-tutorial-basics/how-to-use-midjourney.md)
+  <!-- - [如何使用 Midjourney？](midjourney/mj-tutorial-basics/how-to-use-midjourney.md)
   - [Midjourney Prompt 基本结构](midjourney/mj-tutorial-basics/midjourney-basics-prompt.md)
   - [Midjourney 基础设置](midjourney/mj-tutorial-basics/midjourney-basics-setting.md)
   - [Midjourney Prompt 常用参数](midjourney/mj-tutorial-basics/midjourney-common-parameters.md)
-  - [订阅 Midjourney 会员](midjourney/mj-tutorial-basics/midjourney-membership.md)
+  - [订阅 Midjourney 会员](midjourney/mj-tutorial-basics/midjourney-membership.md) -->
 * [🖊️ Text Prompt 篇](midjourney/mj-tutorial-text-prompt/README.md)
   <!-- * [框架总结](midjourney/mj-tutorial-text-prompt/framework-summary.md)
   * [场景1：Stock Photo](midjourney/mj-tutorial-text-prompt/scenario-1-stock-photo.md)
@@ -44,11 +44,11 @@
   * [Midjourney 官方 FAQ](midjourney/mj-tutorial-extras/midjourney-official-faq.md) -->
 * [📋 命令及参数]()
 * [📁 Big List](midjourney/mj-tutorial-list/README.md)  
-  <!-- * [👺 Anime List](midjourney/mj-tutorial-list/anime-list.md)
+  * [👺 Anime List](midjourney/mj-tutorial-list/anime-list.md)
   * [🧑‍🎨 Artist List](midjourney/mj-tutorial-list/artist-list.md)
   * [📷 Camera and Lens List](midjourney/mj-tutorial-list/camera-and-lens-list.md)
   * [💡 Lighting List](midjourney/mj-tutorial-list/lighting-list.md)
   * [💬 Midjourney 完整参数列表](midjourney/mj-tutorial-list/midjourney-parameters-list.md)
-  * [🏞️ Photographers List](midjourney/mj-tutorial-list/photographers-list.md) -->
+  * [🏞️ Photographers List](midjourney/mj-tutorial-list/photographers-list.md)
 * [🔨 工作实践]()
 * [🙋🏼‍♂️ 常见问题]()

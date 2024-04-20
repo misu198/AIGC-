@@ -1,10 +1,10 @@
 - [🧭 Midjourney 学习导航](home.md)
 - [😎 基础篇](midjourney/mj-tutorial-basics/README.md)
-  - [如何使用 Midjourney？](midjourney/mj-tutorial-basics/how-to-use-midjourney.md)
+  <!-- - [如何使用 Midjourney？](midjourney/mj-tutorial-basics/how-to-use-midjourney.md)
   - [Midjourney Prompt 基本结构](midjourney/mj-tutorial-basics/midjourney-basics-prompt.md)
   - [Midjourney 基础设置](midjourney/mj-tutorial-basics/midjourney-basics-setting.md)
   - [Midjourney Prompt 常用参数](midjourney/mj-tutorial-basics/midjourney-common-parameters.md)
-  - [订阅 Midjourney 会员](midjourney/mj-tutorial-basics/midjourney-membership.md)
+  - [订阅 Midjourney 会员](midjourney/mj-tutorial-basics/midjourney-membership.md) -->
 * [🖊️ Text Prompt 篇](midjourney/mj-tutorial-text-prompt/README.md)
   <!-- * [框架总结](midjourney/mj-tutorial-text-prompt/framework-summary.md)
   * [场景1：Stock Photo](midjourney/mj-tutorial-text-prompt/scenario-1-stock-photo.md)
@@ -39,9 +39,9 @@
   * [技巧十七：看到别人的图，想知道它的 prompt 是啥](midjourney/mj-tutorial-tips/tips-17-describe.md) -->
 * [📑 进阶指南]()
 * [🚀 高级篇](midjourney/mj-tutorial-extras/README.md)
-  <!-- * [Midjourney 各版本差异](midjourney/mj-tutorial-extras/differences-between-versions.md)
+  * [Midjourney 各版本差异](midjourney/mj-tutorial-extras/differences-between-versions.md)
   * [Midjourney Prompt 高级参数](midjourney/mj-tutorial-extras/midjourney-extras-parameters.md)
-  * [Midjourney 官方 FAQ](midjourney/mj-tutorial-extras/midjourney-official-faq.md) -->
+  * [Midjourney 官方 FAQ](midjourney/mj-tutorial-extras/midjourney-official-faq.md)
 * [📋 命令及参数]()
 * [📁 Big List](midjourney/mj-tutorial-list/README.md)  
   <!-- * [👺 Anime List](midjourney/mj-tutorial-list/anime-list.md)
