@@ -6,3 +6,7 @@
 .vscode?
 .obsidian
 .obsidian?
+“`
+.vscode/.env
+.vscode/sftp.json
+“`
