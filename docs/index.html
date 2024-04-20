@@ -104,10 +104,10 @@
   <div id="app"></div>
   <script>
     // 在下面的两个引号之间输入你自己的GitHub仓库的URL
-    var gitLinkRepoURL = 'https://misu198.github.io/AIGC-docs/';
+    var gitLinkRepoURL = '';
 
     // 自定义文本为您的编辑此页在GitHub链接之间的两个引号下面
-    var editThisPageLinkText = '编辑此页';
+    var editThisPageLinkText = '';
 
     // 将standalone设置为true将永久隐藏侧边栏和导航栏
     var standalone = false;
@@ -163,7 +163,7 @@
     window.$docsify = {
       // 一般设置
       // -----------------------------------------------------------------
-      name: 'Docsify Open Course Starter Kit',
+      name: 'AIGC创意画廊',
       homepage: 'home.md',
       loadSidebar: !(getURLParameterByName(['standalone', 'embedded']) || standalone || false),
       loadNavbar: !(getURLParameterByName(['standalone', 'embedded']) && !(getURLParameterByName('navbar')) || standalone && !navbar ||false),
