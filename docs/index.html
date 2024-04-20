@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <title>Docsify Open Course Starter Kit</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Docsify Open Course Starter Kit">
+  <meta name="description" content="AIGC Creative gallery">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="assets/favicon/favicon.png">
+  <link rel="icon" href="assets/favicon/logo.png">
 
   <!-- Themeable Simple theme -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
@@ -103,25 +103,25 @@
 <body>
   <div id="app"></div>
   <script>
-    // Enter the URL of your own GitHub Repository in between the two quotes below
-    var gitLinkRepoURL = '';
+    // 在下面的两个引号之间输入你自己的GitHub仓库的URL
+    var gitLinkRepoURL = 'https://misu198.github.io/AIGC-docs/';
 
-    // Customize the text for your Edit this Page on GitHub link between the two quotes below
-    var editThisPageLinkText = 'Edit this Page';
+    // 自定义文本为您的编辑此页在GitHub链接之间的两个引号下面
+    var editThisPageLinkText = '编辑此页';
 
-    // Set standalone to true to permanently hide the Sidebar and Navbar
+    // 将standalone设置为true将永久隐藏侧边栏和导航栏
     var standalone = false;
 
-    // Set ToC to true to permanently show page Table of Contents (Sidebar and Navbar must also be hidden)
+    // 将ToC设置为true以永久显示页面目录(侧边栏和导航栏也必须隐藏)
     var ToC = false;
 
-    // Set navbar to true to permanently override the hiding of the Navbar when displaying as standalone
+    // 将navbar设置为true以在独立显示时永久覆盖导航条的隐藏
     var navbar = false;
 
-    // Set footer to true to permanently show the Footer ('_footer.md)
+    // 将footer设置为true以永久显示页脚('_footer.md)
     var footer = false;
 
-    // Get value from GET-parameter in URL
+    // 从URL中的Get参数获取值
     // @param {array} name Parameter-name
     // @param {*} isTrue Return if found
     // @param {*} isFalse Return if not found
@@ -161,7 +161,7 @@
 
     // Docsify
     window.$docsify = {
-      // GENERAL SETTINGS
+      // 一般设置
       // -----------------------------------------------------------------
       name: 'Docsify Open Course Starter Kit',
       homepage: 'home.md',
@@ -170,15 +170,15 @@
       externalLinkTarget: (getURLParameterByName(['standalone', 'embedded'], '_top', '_blank')),
       loadFooter: (getURLParameterByName('footer') || footer || false),
 
-      // SIDEBAR NAVIGATION
+      // 侧边栏导航
       // -----------------------------------------------------------------
       auto2top: true,
       maxLevel: 3,
-      // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
+      // 将subMaxLevel设置为0以删除侧栏中页面目录(TOC)的自动显示
       subMaxLevel: 3,
       hideSidebar: (getURLParameterByName(['standalone', 'embedded']) || standalone),
 
-      // PLUGIN SETTINGS
+      // 插件设置
       // -----------------------------------------------------------------
       pagination: {
         previousText: 'PREV',
@@ -193,23 +193,23 @@
         title: '',
       },
 
-      // CUSTOM PLUGINS
+      // 自定义插件
       // -----------------------------------------------------------------
       plugins: [
         function (hook, vm) {
 
           hook.afterEach(function (html, next) {
-            // Invoked each time after the Markdown file is parsed.
-            // beforeEach and afterEach support asynchronous。
+            // 每次解析Markdown文件后调用。
+            // beforeEach和afterEach支持异步。
             // ...
-            // call `next(html)` when task is done.
+            // 当任务完成时调用' next(html) '。
 
             var htmlElement = document.createElement('div');
             htmlElement.innerHTML = html;
 
             if (getURLParameterByName(['standalone', 'embedded']) || standalone) {
 
-              // Carry any existing URL parms in links
+              // 在链接中携带任何现有的URL参数
               var URLparms = '';
 
               if (getURLParameterByName('standalone') || standalone) {
@@ -240,12 +240,12 @@
 
               for (const link of links) {
                 //console.log(link.getAttribute('href'));
-                // Find any local Markdown file links not including Docsify id anchor links
+                // 查找任何不包括Docsify id锚点链接的本地Markdown文件链接
                 if ((link.getAttribute('href')?.match(/^#/) && (link.getAttribute('href').includes('id=')) === false)) {
-                  // Modify each Markdown file link to include existing parms
+                  // 修改每个Markdown文件链接以包含现有的parms
                   var existingLink = link.getAttribute('href');
                   //console.log(existingLink);
-                  // Update Markdown file link
+                  // 更新Markdown文件链接
                   var newURL = existingLink + URLparms;
                   //console.log("Changed:");
                   //console.log(newURL);
